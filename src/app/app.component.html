@@ -1,0 +1,16 @@
+<div>
+    <app-child [name]="John"></app-child>
+</div>
+
+<div>
+  This is initial value: {{initialValue}}
+</div>
+
+<div>
+  This value is coming from service: {{serviceValue}}
+</div>
+
+<div>
+  <input type="text" [(ngModel)]="inputValue">
+  Two Way Binding Value: {inputValue}
+</div>
